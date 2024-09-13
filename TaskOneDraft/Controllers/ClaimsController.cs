@@ -72,6 +72,44 @@ namespace TaskOneDraft.Controllers
             return View(claims);
         }
 
+
+        //approve method
+        public IActionResult Approve(int id)
+        {
+            var claim = _context.Claims.Find(id);
+            if (claim == null)
+            {
+                TempData["Message"] = "Claim not found";
+                TempData["MessageType"] = "error";
+                return RedirectToAction("Index");
+            }
+            claim.Status = "Approve";
+            _context.SaveChanges();
+
+            TempData["Message"] = "Your Claim has been approved";
+            TempData["MessageType"] = "success";
+            return RedirectToAction("List");
+        }
+
+        //Reject method
+        public IActionResult Reject(int id)
+        {
+            var claim = _context.Claims.Find(id);
+            if (claim == null)
+            {
+                TempData["Message"] = "Claim not found";
+                TempData["MessageType"] = "error";
+                return RedirectToAction("Index");
+            }
+            claim.Status = "Reject";
+            _context.SaveChanges();
+
+            TempData["Message"] = "Your Claim has been rejected - contact HR";
+            TempData["MessageType"] = "error";
+            return RedirectToAction("List");
+        }
+
+
         public IActionResult ClaimsSubmitted()
         {
             ViewData["Message"] = "Your claim has been submitted successfully.";

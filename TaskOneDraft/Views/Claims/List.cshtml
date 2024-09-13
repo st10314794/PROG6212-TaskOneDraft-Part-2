@@ -99,13 +99,19 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
 
     <!--Design the toastr-->
-    <script>
+    <style>
+        .toast-custom{
+            font-size: 20px;
+            width: 400px;
+        }
+    </style>
+   @*  <script>
         $(document).ready(function () {
             var message = '@TempData["Message"]';
             var messageType = '@TempData["MessageType"]';
 
             if (message) {
-                if (messageType) === 'success') {
+                if (messageType === 'success') {
     toastr.success(message, 'Success', {
         "positionCLass": "toast-top-right",
         "timeout": "5000",
@@ -114,11 +120,36 @@
     });
         } else if (messageType === 'error') {
             toastr.error(message, 'Error', {
-                "positionCLass": "toast-top-right",
+                "positionClass": "toast-top-right",
                 "timeout": "5000",
                 "closeButton": true,
                 "progressBar": true
             });
         }
-    </script>
+    </script> *@
+    <script>
+    $(document).ready(function () {
+        var message = '@TempData["Message"]';
+        var messageType = '@TempData["MessageType"]';
+
+        if (message) {
+            if (messageType === 'success') {
+                toastr.success(message, 'Success', {
+                    "positionClass": "toast-top-right",  // fixed spelling of positionClass
+                    "timeout": "5000",
+                    "closeButton": true,
+                    "progressBar": true
+                });
+            } else if (messageType === 'error') {
+                toastr.error(message, 'Error', {
+                    "positionClass": "toast-top-right",  // fixed spelling of positionClass
+                    "timeout": "5000",
+                    "closeButton": true,
+                    "progressBar": true
+                });
+            }
+        }
+    });
+</script>
+
 }
