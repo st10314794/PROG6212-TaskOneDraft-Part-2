@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|c:\\users\\mik\\source\\repos\\skuul\\taskonedraft\\taskonedraft\\migrations\\20240913063843_addedclaimsstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|solutionrelative:taskonedraft\\migrations\\20240913063843_addedclaimsstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|c:\\users\\mik\\source\\repos\\skuul\\taskonedraft\\taskonedraft\\views\\claims\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|solutionrelative:taskonedraft\\views\\claims\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|c:\\users\\mik\\source\\repos\\skuul\\taskonedraft\\taskonedraft\\views\\claims\\claims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|solutionrelative:taskonedraft\\views\\claims\\claims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|c:\\users\\mik\\source\\repos\\skuul\\taskonedraft\\taskonedraft\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|solutionrelative:taskonedraft\\models\\claims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E51FB293-0A75-4B50-BD34-2B23A01316F0}|TaskOneDraft\\TaskOneDraft.csproj|c:\\users\\mik\\source\\repos\\skuul\\taskonedraft\\taskonedraft\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -30,19 +42,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240913063843_AddedClaimsStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Migrations\\20240913063843_AddedClaimsStatus.cs",
+              "RelativeDocumentMoniker": "TaskOneDraft\\Migrations\\20240913063843_AddedClaimsStatus.cs",
+              "ToolTip": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Migrations\\20240913063843_AddedClaimsStatus.cs",
+              "RelativeToolTip": "TaskOneDraft\\Migrations\\20240913063843_AddedClaimsStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:38:44.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Claims.cs",
+              "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Models\\Claims.cs",
+              "RelativeDocumentMoniker": "TaskOneDraft\\Models\\Claims.cs",
+              "ToolTip": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Models\\Claims.cs",
+              "RelativeToolTip": "TaskOneDraft\\Models\\Claims.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:32:21.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Claims\\List.cshtml",
+              "RelativeDocumentMoniker": "TaskOneDraft\\Views\\Claims\\List.cshtml",
+              "ToolTip": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Claims\\List.cshtml",
+              "RelativeToolTip": "TaskOneDraft\\Views\\Claims\\List.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwGEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-13T06:29:35.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Claims.cshtml",
               "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Claims\\Claims.cshtml",
               "RelativeDocumentMoniker": "TaskOneDraft\\Views\\Claims\\Claims.cshtml",
               "ToolTip": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Claims\\Claims.cshtml",
               "RelativeToolTip": "TaskOneDraft\\Views\\Claims\\Claims.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwGsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAGsAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-10T17:38:11.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "dbo.AspNetUsers.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TaskOneDraft/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/TaskOneDraft/True/SqlTable/dbo.AspNetUsers.sql",
@@ -51,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RoleInitialiser.cs",
               "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\RoleInitialiser.cs",
               "RelativeDocumentMoniker": "TaskOneDraft\\RoleInitialiser.cs",
@@ -59,18 +110,17 @@
               "RelativeToolTip": "TaskOneDraft\\RoleInitialiser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:29:19.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-10T16:29:19.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TaskOneDraft\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Mik\\source\\repos\\Skuul\\TaskOneDraft\\TaskOneDraft\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "TaskOneDraft\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB8AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-16T06:19:00.475Z",
               "EditorCaption": ""

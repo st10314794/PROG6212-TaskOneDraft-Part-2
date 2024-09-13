@@ -83,21 +83,42 @@
                         <a href="@Url.Action("DownloadFile", new { id = claim.ID })">Download</a>
 
                     }
-
-                    else
-
-                    {
-
-                       // N / A
-
-                    }
-
                 </td>
-
+                <!--approve or reject button-->
+                <td>
+                    <a href="@Url.Action("Approve", new { id=claim.ID})" class="btn btn-success">Approve</a>
+                    <a href="@Url.Action("Reject", new { id=claim.ID})" class="btn btn-danger">Reject</a>
+                </td>
             </tr>
-
         }
-
     </tbody>
-
 </table>
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+    <!--Design the toastr-->
+    <script>
+        $(document).ready(function () {
+            var message = '@TempData["Message"]';
+            var messageType = '@TempData["MessageType"]';
+
+            if (message) {
+                if (messageType) === 'success') {
+    toastr.success(message, 'Success', {
+        "positionCLass": "toast-top-right",
+        "timeout": "5000",
+        "closeButton": true,
+        "progressBar": true
+    });
+        } else if (messageType === 'error') {
+            toastr.error(message, 'Error', {
+                "positionCLass": "toast-top-right",
+                "timeout": "5000",
+                "closeButton": true,
+                "progressBar": true
+            });
+        }
+    </script>
+}

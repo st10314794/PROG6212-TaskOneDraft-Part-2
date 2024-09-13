@@ -28,6 +28,8 @@ namespace TaskOneDraft.Models
         //Mark
         [NotMapped]
         public List<IFormFile>? SupportingDocuments { get; set; }
+        //Status Tag
+        public string? Status { get; set; }
 
     }
 }
